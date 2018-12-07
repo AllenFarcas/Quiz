@@ -12,6 +12,8 @@
 		9F26C0EB21BA781400BC2E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F26C0E921BA781400BC2E1A /* Main.storyboard */; };
 		9F26C0ED21BA781600BC2E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F26C0EC21BA781600BC2E1A /* Assets.xcassets */; };
 		9F26C0F021BA781600BC2E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F26C0EE21BA781600BC2E1A /* LaunchScreen.storyboard */; };
+		9F26C0F821BA789C00BC2E1A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F26C0F721BA789C00BC2E1A /* Question.swift */; };
+		9F26C0FA21BA794A00BC2E1A /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F26C0F921BA794A00BC2E1A /* QuizModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9F26C0EC21BA781600BC2E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F26C0EF21BA781600BC2E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F26C0F121BA781600BC2E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F26C0F721BA789C00BC2E1A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9F26C0F921BA794A00BC2E1A /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				9F26C0E521BA781400BC2E1A /* AppDelegate.swift */,
 				9F26C0E721BA781400BC2E1A /* ViewController.swift */,
+				9F26C0F721BA789C00BC2E1A /* Question.swift */,
+				9F26C0F921BA794A00BC2E1A /* QuizModel.swift */,
 				9F26C0E921BA781400BC2E1A /* Main.storyboard */,
 				9F26C0EC21BA781600BC2E1A /* Assets.xcassets */,
 				9F26C0EE21BA781600BC2E1A /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F26C0FA21BA794A00BC2E1A /* QuizModel.swift in Sources */,
+				9F26C0F821BA789C00BC2E1A /* Question.swift in Sources */,
 				9F26C0E821BA781400BC2E1A /* ViewController.swift in Sources */,
 				9F26C0E621BA781400BC2E1A /* AppDelegate.swift in Sources */,
 			);
